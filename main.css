@@ -26,7 +26,7 @@ html {
   margin-left: 4rem;
 }
 
-.inside p {
+.upper_header .inside p {
   font-family: var(--font-family);
   font-weight: 400;
   width: 32.1rem;
@@ -37,7 +37,7 @@ html {
   color: #4b5563;
 }
 
-.inside span {
+.upper_header .inside span {
   height: 3.2rem;
   width: 3.2rem;
   margin-left: 132.7rem;
@@ -140,3 +140,143 @@ header .inside .main_control button {
 }
 
 /*#endregion*/
+
+/*#region block_1*/
+
+main block_1 {
+  display: grid;
+  width: 144rem;
+  height: 76.8rem;
+  background-color: #00353b;
+}
+
+main block_1 .inside {
+  display: flex;
+  gap: 8rem;
+  margin-left: 8rem;
+  margin-top: 4.8rem;
+  width: 128rem;
+  height: 64rem;
+}
+
+main block_1 .inside img {
+  border-radius: 24px;
+  width: 600px;
+  height: 640px;
+}
+
+main block_1 .inside svg {
+  position: absolute;
+  width: 20.9rem;
+  height: 25rem;
+  margin-left: 57.6rem;
+  margin-top: 31.2rem;
+}
+
+main block_1 .inside .text_block {
+  width: 60rem;
+  height: 39.8rem;
+  margin-top: 12.1rem;
+}
+
+main block_1 .inside .text_block h1 {
+  margin-top: -0.6rem;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 120%;
+  color: #fff;
+}
+
+main block_1 .inside .text_block p {
+  width: 58.7rem;
+  margin-top: 3rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+}
+
+main block_1 .inside .text_block .explore {
+  display: flex;
+  width: 60rem;
+  height: 6.6rem;
+  margin-top: 2.3rem;
+}
+
+main block_1 .inside .text_block .explore button {
+  width: 17.2rem;
+  height: 5rem;
+  margin-top: 1.6rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  background-color: #22a45a;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+main block_1 .inside .text_block .explore span {
+  margin-top: 2.9rem;
+  margin-left: 1.6rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+}
+
+main block_1 .inside .text_block .explore symb {
+  margin-top: 2.3rem;
+  margin-left: 0.4rem;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+}
+
+main block_1 .inside .text_block .review {
+  display: flex;
+  width: 60rem;
+  height: 4.8rem;
+  margin-top: 4.8rem;
+}
+
+main block_1 .inside .text_block .review img {
+  display: flex;
+  width: 16rem;
+  height: 4.8rem;
+  border-radius: 0rem;
+}
+
+main block_1 .inside .text_block .review .block {
+  width: 13.2rem;
+  height: 4.8rem;
+  margin-left: 1.6rem;
+}
+
+main block_1 .inside .text_block .review .block .stars {
+  color: #e0b420;
+}
+
+main block_1 .inside .text_block .review .block .stars symb {
+  width: 2.15rem;
+  height: 3.6rem;
+}
+
+main block_1 .inside .text_block .review .block p {
+  margin-top: -1.2rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+
+/*endregion*/
