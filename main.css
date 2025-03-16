@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
-html{
+html {
   font-size: 10px;
 }
 
@@ -8,27 +8,28 @@ html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --font-family: "DM Sans", sans-serif;
+  --second-family: "Poppins", sans-serif;
 }
 
+/*#region upper_header*/
+
 .upper_header {
-  --font-family: "DM Sans", sans-serif;
   height: 4.8rem;
   width: 144rem;
-  --second-family: "Poppins", sans-serif;
-  --third-family: "Material Icons", sans-serif;
 }
 
 .upper_header .inside {
   display: flex;
   position: relative;
   width: 136rem;
-  margin-left: 40px;
-  }
+  margin-left: 4rem;
+}
 
-.inside p{
+.inside p {
   font-family: var(--font-family);
   font-weight: 400;
-  width: 50rem;
+  width: 32.1rem;
   margin-left: 52rem;
   margin-top: 1.2rem;
   font-size: 1.5rem;
@@ -36,10 +37,106 @@ html{
   color: #4b5563;
 }
 
-.inside img{
+.inside span {
   height: 3.2rem;
   width: 3.2rem;
-  margin-left: 132.8rem;
+  margin-left: 132.7rem;
   margin-top: 0.8rem;
   position: absolute;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 100%;
+  color: #4b5563;
 }
+
+/*#endregion*/
+
+/*#region header*/
+
+header {
+  height: 7.2rem;
+  width: 144rem;
+  background-color: #00353b;
+}
+
+header .inside {
+  margin-left: 8rem;
+  display: flex;
+  height: 7.2rem;
+  width: 128rem;
+}
+
+header .inside article {
+  margin-left: 43.65rem;
+  display: flex;
+  position: relative;
+  height: 7.2rem;
+  width: 38.3rem;
+}
+
+header .inside article nav {
+  margin-left: 2.5rem;
+  margin-top: 2.4rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #fff;
+}
+
+header .inside .main_control {
+  display: flex;
+  gap: 2.5rem;
+  margin-left: 87.55rem;
+  margin-top: 1.1rem;
+  height: 5rem;
+  width: 40.45rem;
+  position: absolute;
+}
+
+header .inside .main_control block {
+  display: flex;
+  height: 2.9rem;
+  width: auto;
+  margin-top: 1rem;
+}
+
+header .inside .main_control block symb {
+  display: flex;
+  width: 1.9rem;
+  position: relative;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 152%;
+  color: #fff;
+}
+
+header .inside .main_control block span {
+  display: flex;
+  width: auto;
+  margin-left: 0.8rem;
+  margin-top: 0.24rem;
+  position: relative;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+
+header .inside .main_control button {
+  width: 10.6rem;
+  height: 5rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #1f2937;
+  background-color: #fff;
+  border-color: #fff;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+/*#endregion*/
