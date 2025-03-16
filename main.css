@@ -15,8 +15,8 @@ html {
 /*#region upper_header*/
 
 .upper_header {
-  height: 4.8rem;
   width: 144rem;
+  height: 4.8rem;
 }
 
 .upper_header .inside {
@@ -27,22 +27,22 @@ html {
 }
 
 .upper_header .inside p {
-  font-family: var(--font-family);
-  font-weight: 400;
   width: 32.1rem;
   margin-left: 52rem;
   margin-top: 1.2rem;
+  font-family: var(--font-family);
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 160%;
   color: #4b5563;
 }
 
 .upper_header .inside span {
-  height: 3.2rem;
+  position: absolute;
   width: 3.2rem;
+  height: 3.2rem;
   margin-left: 132.7rem;
   margin-top: 0.8rem;
-  position: absolute;
   font-weight: 400;
   font-size: 3.2rem;
   line-height: 100%;
@@ -54,24 +54,24 @@ html {
 /*#region header*/
 
 header {
-  height: 7.2rem;
   width: 144rem;
+  height: 7.2rem;
   background-color: #00353b;
 }
 
 header .inside {
-  margin-left: 8rem;
   display: flex;
-  height: 7.2rem;
   width: 128rem;
+  height: 7.2rem;
+  margin-left: 8rem;
 }
 
 header .inside article {
-  margin-left: 43.65rem;
   display: flex;
   position: relative;
-  height: 7.2rem;
   width: 38.3rem;
+  height: 7.2rem;
+  margin-left: 43.65rem;
 }
 
 header .inside article nav {
@@ -86,40 +86,38 @@ header .inside article nav {
 
 header .inside .main_control {
   display: flex;
+  position: absolute;
   gap: 2.5rem;
+  width: 40.45rem;
+  height: 5rem;
   margin-left: 87.55rem;
   margin-top: 1.1rem;
-  height: 5rem;
-  width: 40.45rem;
-  position: absolute;
 }
 
 header .inside .main_control block {
   display: flex;
   height: 2.9rem;
-  width: auto;
   margin-top: 1rem;
 }
 
 header .inside .main_control block symb {
   display: flex;
-  width: 1.9rem;
   position: relative;
+  width: 1.9rem;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 1.9rem;
   line-height: 152%;
   color: #fff;
 }
 
 header .inside .main_control block span {
   display: flex;
-  width: auto;
+  position: relative;
   margin-left: 0.8rem;
   margin-top: 0.24rem;
-  position: relative;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 150%;
   color: #fff;
 }
@@ -129,7 +127,7 @@ header .inside .main_control button {
   height: 5rem;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 150%;
   text-align: center;
   color: #1f2937;
@@ -153,16 +151,16 @@ main block_1 {
 main block_1 .inside {
   display: flex;
   gap: 8rem;
-  margin-left: 8rem;
-  margin-top: 4.8rem;
   width: 128rem;
   height: 64rem;
+  margin-left: 8rem;
+  margin-top: 4.8rem;
 }
 
-main block_1 .inside img {
-  border-radius: 24px;
-  width: 600px;
-  height: 640px;
+main block_1 .inside img { 
+  width: 60rem;
+  height: 64re;
+  border-radius: 2.4rem;
 }
 
 main block_1 .inside svg {
@@ -183,7 +181,7 @@ main block_1 .inside .text_block h1 {
   margin-top: -0.6rem;
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 56px;
+  font-size: 5.6rem;
   line-height: 120%;
   color: #fff;
 }
@@ -193,7 +191,7 @@ main block_1 .inside .text_block p {
   margin-top: 3rem;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 150%;
   color: #fff;
 }
@@ -211,7 +209,7 @@ main block_1 .inside .text_block .explore button {
   margin-top: 1.6rem;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 150%;
   text-align: center;
   color: #fff;
@@ -221,21 +219,21 @@ main block_1 .inside .text_block .explore button {
 }
 
 main block_1 .inside .text_block .explore span {
-  margin-top: 2.9rem;
   margin-left: 1.6rem;
+  margin-top: 2.9rem;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 150%;
   text-align: center;
   color: #fff;
 }
 
 main block_1 .inside .text_block .explore symb {
-  margin-top: 2.3rem;
   margin-left: 0.4rem;
+  margin-top: 2.3rem;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 2.6rem;
   line-height: 150%;
   text-align: center;
   color: #fff;
@@ -274,9 +272,9 @@ main block_1 .inside .text_block .review .block p {
   margin-top: -1.2rem;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 150%;
   color: #fff;
 }
 
-/*endregion*/
+/*#endregion*/
