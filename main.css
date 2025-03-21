@@ -903,7 +903,7 @@ main block_8 .bottom_text_block h1 {
 main block_8 .bottom_text_block p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 160%;
   text-align: center;
   color: #4b5563;
@@ -986,7 +986,7 @@ main block_8 button {
   height: 5rem;
   margin-left: 65.3rem;
   margin-top: 8rem;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 150%;
   text-align: center;
   justify-self: center;
@@ -994,7 +994,218 @@ main block_8 button {
   color: #fff;
   background-color: #1f2937;
   border: none;
-  border-radius: 0.8rem
+  border-radius: 0.8rem;
+}
+
+/*#endregion*/
+
+/*#region block_9*/
+
+main block_9 {
+  display: flex;
+  width: 144rem;
+  height: 78rem;
+}
+
+main block_9 .bottom_rect {
+  display: flex;
+  position: absolute;
+  width: 144rem;
+  height: 39rem;
+  margin-top: 51.89em;
+  background: #00353b;
+}
+
+main block_9 .rect {
+  display: flex;
+  width: 128rem;
+  height: 78rem;
+  position: absolute;
+  margin-left: 8rem;
+  margin-top: 12.8rem;
+  background-color: #fcd8ca;
+  border: none;
+  border-radius: 2.4rem;
+}
+
+main block_9 .rect .inside {
+  width: 115.2rem;
+  height: 78rem;
+  margin-left: 6.4rem;
+}
+
+main block_9 .rect .inside .upper_block {
+  width: 76.8rem;
+  height: 18rem;
+  margin-top: 9.8rem;
+  justify-self: center;
+  text-align: center;
+}
+
+main block_9 .rect .inside .upper_block h3 {
+  width: 10.1rem;
+  height: 2.9rem;
+  padding-top: 0.3rem;
+  justify-self: center;
+  font-size: 1.4rem;
+  line-height: 150%;
+  text-align: center;
+  color: #1f2937;
+  background-color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+main block_9 .rect .inside .upper_block h1 {
+  margin-top: 1.1rem;
+  font-size: 4.8rem;
+  line-height: 120%;
+  text-align: center;
+  color: #1f2937;
+}
+
+main block_9 .rect .inside .upper_block p {
+  width: 73rem;
+  margin-top: 2.9rem;
+  margin-left: 2rem;
+  font-size: 1.8rem;
+  line-height: 150%;
+  text-align: center;
+  color: #4b5563;
+}
+
+main block_9 .rect .inside .frame_of_bottom_block {
+  width: 128rem;
+  height: 32.8rem;
+  margin-left: -6.4rem;
+  margin-top: 7.8rem;
+  overflow: hidden;
+}
+
+main block_9 .rect .inside .frame_of_bottom_block .bottom_block {
+  display: flex;
+  width: 216rem;
+  height: 32.8rem;
+  margin-left: -3.19rem;
+}
+
+main block_9 .rect .inside .frame_of_bottom_block .bottom_block .review_block {
+  width: 40rem;
+  height: 32.8rem;
+  margin-left: 3.2rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 1.6rem;
+}
+
+main
+  block_9
+  .rect
+  .inside
+  .frame_of_bottom_block
+  .bottom_block
+  .review_block
+  .text_block {
+  width: 33.6rem;
+  height: 16rem;
+  margin-left: 3.201rem;
+  margin-top: 3.4rem;
+}
+
+main
+  block_9
+  .rect
+  .inside
+  .frame_of_bottom_block
+  .bottom_block
+  .review_block
+  .text_block
+  svg {
+  fill: #000;
+  margin-left: 0.15rem;
+}
+
+main
+  block_9
+  .rect
+  .inside
+  .frame_of_bottom_block
+  .bottom_block
+  .review_block
+  .text_block
+  p {
+  margin-top: 3.1rem;
+  font-size: 1.7rem;
+  line-height: 159%;
+  color: #1f2937;
+}
+
+main
+  block_9
+  .rect
+  .inside
+  .frame_of_bottom_block
+  .bottom_block
+  .review_block
+  .reviewer {
+  display: flex;
+  justify-content: space-between;
+  width: 29.2rem;
+  margin-left: 3.201rem;
+  margin-top: 5.5rem;
+}
+
+main
+  block_9
+  .rect
+  .inside
+  .frame_of_bottom_block
+  .bottom_block
+  .review_block
+  .reviewer
+  img {
+  width: 4.8rem;
+  height: 4.8rem;
+  vertical-align: middle;
+}
+
+main
+  block_9
+  .rect
+  .inside
+  .frame_of_bottom_block
+  .bottom_block
+  .review_block
+  .text {
+  width: 22.8rem;
+}
+
+main
+  block_9
+  .rect
+  .inside
+  .frame_of_bottom_block
+  .bottom_block
+  .review_block
+  .text
+  p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #111827;
+}
+
+main
+  block_9
+  .rect
+  .inside
+  .frame_of_bottom_block
+  .bottom_block
+  .review_block
+  .text
+  h3 {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #6b7280;
 }
 
 /*#endregion*/
