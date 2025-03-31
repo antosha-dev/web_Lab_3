@@ -65,13 +65,13 @@ upper_header {
   display: flex;
   width: 144rem;
   height: 4.8rem;
+  justify-content: center;
 }
 
 upper_header .inside {
   display: flex;
   position: relative;
   width: 136rem;
-  margin-left: 4rem;
 }
 
 upper_header .inside p {
@@ -186,6 +186,7 @@ main block_1 {
   width: 144rem;
   height: 76.8rem;
   background-color: #00353b;
+  justify-content: center;
 }
 
 main block_1 .inside {
@@ -193,7 +194,6 @@ main block_1 .inside {
   gap: 8rem;
   width: 128rem;
   height: 64rem;
-  margin-left: 8rem;
   margin-top: 4.8rem;
 }
 
@@ -351,6 +351,7 @@ main block_3 .text_rect {
   height: 42.5rem;
   margin-left: 8rem;
   text-align: center;
+  justify-content: center;
   background-color: #fcd8ca;
   border-radius: 2.4rem;
 }
@@ -359,7 +360,6 @@ main block_3 .text_rect .inside {
   width: 76.8rem;
   height: 29.7rem;
   margin-top: 6.4rem;
-  margin-left: 25.6rem;
 }
 
 main block_3 .text_rect .inside h3 {
@@ -417,13 +417,13 @@ main block_4 {
   display: flex;
   width: 144rem;
   height: 88rem;
+  justify-content: center;
 }
 
 main block_4 .inside {
   display: flex;
   width: 128rem;
   height: 59.2rem;
-  margin-left: 8rem;
   margin-top: 16rem;
 }
 
@@ -497,13 +497,13 @@ main block_5 {
   display: flex;
   width: 144rem;
   height: 72rem;
+  justify-content: center;
 }
 
 main block_5 .inside {
   display: flex;
   width: 128rem;
   height: 59.2rem;
-  margin-left: 8rem;
 }
 
 main block_5 .inside .text_block {
@@ -576,12 +576,12 @@ main block_6 {
   display: flex;
   width: 144rem;
   height: 87.2rem;
+  justify-content: center;
 }
 
 main block_6 .inside {
   width: 128rem;
   height: 74.4rem;
-  margin-left: 8rem;
   text-align: center;
 }
 
@@ -700,12 +700,12 @@ main block_7 {
   display: flex;
   width: 144rem;
   height: 102rem;
+  justify-content: center;
 }
 
 main block_7 .inside {
   width: 128rem;
   height: 102rem;
-  margin-left: 8rem;
 }
 
 main block_7 .inside .rect {
@@ -1023,6 +1023,7 @@ main block_9 .rect {
   position: absolute;
   margin-left: 8rem;
   margin-top: 12.8rem;
+  justify-content: center;
   background-color: #fcd8ca;
   border: none;
   border-radius: 2.4rem;
@@ -1031,7 +1032,6 @@ main block_9 .rect {
 main block_9 .rect .inside {
   width: 115.2rem;
   height: 78rem;
-  margin-left: 6.4rem;
 }
 
 main block_9 .rect .inside .upper_block {
@@ -1216,13 +1216,13 @@ main block_10 {
   display: flex;
   width: 144rem;
   height: 104.2rem;
+  justify-content: center;
   background-color: #00353b;
 }
 
 main block_10 .inside {
   width: 128rem;
   height: 78.6rem;
-  margin-left: 8rem;
   margin-top: 25.6rem;
 }
 
@@ -1343,9 +1343,206 @@ main block_10 .inside .bottom_block .post .bottom_text symb {
 
 /*#endregion*/
 
-/*#region block_*/
+/*#region block_11*/
 
-main block_ {
+main block_11 {
+  display: flex;
+  width: 144rem;
+  height: 43.3rem;
+  justify-content: center;
+  background-color: #00353b;
+}
+
+main block_11 .inside {
+  width: 76.8rem;
+  height: 23.2rem;
+  margin-top: 12.4rem;
+  justify-items: center;
+}
+
+main block_11 .inside h1 {
+  font-size: 4.8rem;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+}
+
+main block_11 .inside p {
+  width: 73rem;
+  height: 5.4rem;
+  margin-top: 2.8rem;
+  font-size: 1.8rem;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+}
+
+main block_11 .inside .button_block {
+  display: flex;
+  width: 76.8rem;
+  height: 6.6rem;
+  margin-top: 2.6rem;
+}
+
+main block_11 .inside .button_block .left_button {
+  width: 13.5rem;
+  height: 5rem;
+  margin-left: 24.3rem;
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  background-color: #22a45a;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+main block_11 .inside .button_block .right_button {
+  width: 13.2rem;
+  height: 5rem;
+  margin-left: 1.6rem;
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+/*#endregion*/
+
+/*#region footer*/
+
+footer {
+  display: flex;
+  width: 144rem;
+  height: 64.1rem;
+  background-color: #00353b;
+  justify-content: center;
+}
+
+footer .inside {
+  width: 128rem;
+  height: 64.1rem;
+}
+
+footer .inside .upper_block {
+  display: flex;
+  justify-content: space-between;
+  width: 128rem;
+  height: 33.6rem;
+  margin-top: 8rem;
+}
+
+footer .inside .upper_block .input_block {
+  width: 40rem;
+  height: 24.4rem;
+}
+
+footer .inside .upper_block .input_block h3 {
+  width: 39.4rem;
+  margin-top: 5.9rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #fff;
+}
+
+footer .inside .upper_block .input_block .input {
+  display: flex;
+  margin-top: 2.3rem;
+}
+
+footer .inside .upper_block .input_block .input input {
+  width: 26rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+footer .inside .upper_block .input_block .input button {
+  width: 12.4rem;
+  height: 5rem;
+  margin-left: 1.6rem;
+  font-size: 1.5rem;
+  line-height: 160%;
+  text-align: center;
+  color: #fff;
+  background-color: #22a45a;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+footer .inside .upper_block .input_block p {
+  margin-top: 1.8rem;
+  font-size: 1.2rem;
+  line-height: 150%;
+  color: #fff;
+}
+
+footer .inside .upper_block .navigation_block {
+  display: flex;
+  justify-content: space-between;
+  width: 80rem;
+  height: 33.6rem;
+}
+
+footer .inside .upper_block .navigation_block .navigation_column {
+  width: 16.4rem;
+  height: 33.6rem;
+}
+
+footer .inside .upper_block .navigation_block .navigation_column h3 {
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #fff;
+}
+
+footer .inside .upper_block .navigation_block .navigation_column p {
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #fff;
+}
+
+footer .inside hr {
+  width: 128rem;
+  height: 0.1rem;
+  margin-top: 8rem;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+footer .inside .bottom_block {
+  display: flex;
+  justify-content: space-between;
+  width: 128rem;
+  height: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+footer .inside .bottom_block p {
+  margin-top: 0.55rem;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #fff;
+}
+
+footer .inside .bottom_block .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 11.2rem;
+  height: 3.2rem;
+}
+
+footer .inside .bottom_block .icons svg {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: #158e5e;
+  border: none;
+  border-radius: 0.4rem;
 }
 
 /*#endregion*/
